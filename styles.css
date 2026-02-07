@@ -851,6 +851,25 @@ a {
 /* ============================================
    CONTACT SECTION
    ============================================ */
+.contact-icon-infographic {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.contact-icon-infographic svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* Animation on hover */
+.contact-item:hover .contact-icon-infographic svg {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+
 .contact {
     padding: var(--spacing-xl) 0;
     background: var(--white);
