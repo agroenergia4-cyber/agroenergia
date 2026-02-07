@@ -680,16 +680,21 @@ a {
 }
 
 .project-video {
-    margin-top: 20px;
-    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
 }
 
-.project-video video,
 .project-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-    border-radius: 8px;
-    aspect-ratio: 16/9;
+    height: 100%;
+    border: 0;
 }
 
 .green-poultry-logo img {
