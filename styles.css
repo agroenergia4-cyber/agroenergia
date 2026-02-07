@@ -509,8 +509,8 @@ a {
 }
 
 .visual-icon {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 700px;
     margin: 0 auto var(--spacing-md);
     display: flex;
     align-items: center;
