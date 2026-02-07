@@ -658,15 +658,17 @@ a {
     box-shadow: var(--shadow-lg);
 }
 
+/* Video container replaces logo */
 .project-image {
     position: relative;
     background: var(--primary-green);
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
-    padding: var(--spacing-lg);
+    padding: 0;
 }
 
+/* Featured badge stays on top */
 .project-badge {
     position: absolute;
     top: var(--spacing-md);
@@ -677,34 +679,28 @@ a {
     border-radius: var(--radius-lg);
     font-weight: 600;
     font-size: 0.875rem;
+    z-index: 2;
 }
 
-.green-poultry-logo {
+/* Video wrapper */
+.project-video {
+    position: relative;
     width: 100%;
-    max-width: 300px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: var(--spacing-lg);
+    height: 100%;
+    padding-bottom: 56.25%; /* 16:9 */
+    background: #000;
 }
 
-.green-poultry-logo img {
+/* Video iframe */
+.project-video iframe {
+    position: absolute;
+    inset: 0;
     width: 100%;
-    height: auto;
-    object-fit: contain;
-    filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.2));
+    height: 100%;
+    border: none;
 }
 
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
+/* Content */
 .project-content {
     padding: var(--spacing-lg);
     display: flex;
@@ -725,6 +721,7 @@ a {
     margin-bottom: var(--spacing-md);
 }
 
+/* Highlights */
 .project-highlights {
     background: var(--white);
     padding: var(--spacing-md);
