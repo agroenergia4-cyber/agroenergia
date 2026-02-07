@@ -646,11 +646,25 @@ a {
     font-size: 0.875rem;
 }
 
+
+
 .green-poultry-logo {
-    width: 100%;
-    max-width: 300px;
-    animation: rotate 20s linear infinite;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
+
+.green-poultry-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
 
 @keyframes rotate {
     from {
