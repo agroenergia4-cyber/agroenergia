@@ -746,7 +746,25 @@ a {
 .highlight-item span {
     color: var(--medium-gray);
 }
+.video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
 
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Responsive: stack videos on mobile */
+@media (max-width: 768px) {
+    .video-container {
+        grid-template-columns: 1fr;
+    }
+}
 /* ============================================
    SERVICES SECTION
    ============================================ */
