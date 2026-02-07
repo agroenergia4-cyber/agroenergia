@@ -679,14 +679,17 @@ a {
     font-size: 0.875rem;
 }
 
-.green-poultry-logo {
+.project-video {
+    margin-top: 20px;
     width: 100%;
-    max-width: 300px;
+}
+
+.project-video video,
+.project-video iframe {
+    width: 100%;
     height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: var(--spacing-lg);
+    border-radius: 8px;
+    aspect-ratio: 16/9;
 }
 
 .green-poultry-logo img {
