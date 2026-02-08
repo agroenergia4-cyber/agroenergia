@@ -461,8 +461,8 @@ a {
 }
 
 .value-icon {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 120px;
     margin: 0 auto var(--spacing-md);
     display: flex;
     align-items: center;
@@ -509,7 +509,7 @@ a {
 }
 
 .visual-icon {
-    width: 100px;
+    width: 120px;
     height: 100px;
     margin: 0 auto var(--spacing-md);
     display: flex;
