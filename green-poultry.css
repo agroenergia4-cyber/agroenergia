@@ -46,7 +46,7 @@
 
 /* Overview Section */
 .project-overview {
-    background: var(--bg-primary);
+    background: #EEECE1;
 }
 
 .overview-grid {
@@ -147,6 +147,9 @@
 }
 
 /* Tech Features */
+.project-overview {
+    background: ##e8f5e9;
+}
 .tech-features {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -269,6 +272,9 @@
 }
 
 /* Impact Grid */
+.project-overview {
+    background: #f5f3ed;
+}
 .impact-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -373,6 +379,9 @@
 }
 
 /* Awards Grid */
+.project-overview {
+    background: #eeece1;
+}
 .awards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -426,7 +435,7 @@
 
 /* Project CTA */
 .project-cta {
-    background: linear-gradient(135deg, var(--primary-dark), var(--primary-color));
+    background: #2d5f3f;
     color: white;
 }
 
