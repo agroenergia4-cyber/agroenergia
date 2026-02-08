@@ -566,7 +566,7 @@ p {
    ABOUT SECTION
    =================================== */
 .about {
-    background: var(--bg-secondary);
+    background: var(#EEECE1);
 }
 
 .about-grid {
