@@ -853,6 +853,9 @@ p {
 /* ===================================
    SERVICES SECTION
    =================================== */
+.about {
+    background: #E8F5E9;
+}
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
