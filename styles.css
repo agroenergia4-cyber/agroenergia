@@ -638,12 +638,21 @@ p {
     position: relative;
     overflow: hidden;
 }
+.visual-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    animation: rotate 20s linear infinite;
+}
 
 .visual-icon {
     width: 160px;
     height: 160px;
     margin-bottom: var(--spacing-lg);
-    background: rgba(255, 255, 255, 0.1);
     border-radius: var(--radius-xl);
     padding: var(--spacing-md);
     position: relative;
