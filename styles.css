@@ -281,8 +281,8 @@ p {
    LANGUAGE TOGGLE
    =================================== */
 .language-toggle {
-    position: fixed;
-    top: var(2.2rem);
+    position: static;
+    top: var(--spacing-md);
     right: var(--spacing-md);
     z-index: 1001;
     display: flex;
