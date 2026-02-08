@@ -282,7 +282,7 @@ p {
    =================================== */
 .language-toggle {
     position: fixed;
-    top: var(--spacing-md);
+    top: var(2.2rem);
     right: var(--spacing-md);
     z-index: 1001;
     display: flex;
