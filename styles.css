@@ -321,8 +321,7 @@ p {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(238, 236, 225, 0.9);
-    backdrop-filter: blur(10px);
+    background: #EEECE1;
     box-shadow: var(--shadow-sm);
     z-index: 999;
     transition: all var(--transition-base);
@@ -340,7 +339,7 @@ p {
 }
 
 .nav-brand .logo {
-    height: 80px;
+    height: 78px;
     width: auto;
 }
 
